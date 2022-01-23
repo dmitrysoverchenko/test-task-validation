@@ -1165,7 +1165,7 @@ tr,
 tt,
 u,
 ul,
-var,
+let,
 video {
   margin: 0;
   padding: 0;
@@ -3211,11 +3211,11 @@ input {
 .head-form {
   font-weight: 700;
 }
-.rub-ramka-varning {
+.rub-ramka-letning {
   font-weight: 500;
   color: #e2243c;
 }
-.rub-ramka-varning-2 {
+.rub-ramka-letning-2 {
   font-weight: 500;
   color: #e2243c;
 }

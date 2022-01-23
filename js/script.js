@@ -22,11 +22,11 @@ const massange = [
   },
 ];
 
-var mass_id = 0;
-var length_mass = 0;
-var lengt_num_mas = 0;
-var text = "";
-var process = true;
+let mass_id = 0;
+let length_mass = 0;
+let lengt_num_mas = 0;
+let text = "";
+let process = true;
 const set = setTimeout(() => {
   const body_mas =
     '<div class="chat-content-item manager "><div class="chat-content-desc"><div class="chat-content-desc-item manager"><p id="mass' +
@@ -276,7 +276,7 @@ let top_scroling = 0;
 function scriplongBody(x) {
   let ekac_x = x + 70;
   top_scroling += ekac_x;
-  var set = setTimeout(() => {
+  let set = setTimeout(() => {
     $("#page_chat").animate(
       {
         scrollTop: top_scroling,
@@ -293,7 +293,7 @@ function showForm() {
 }
 
 function scrollDown() {
-  var wrap = $(".content"),
+  let wrap = $(".content"),
     wrapHeight = wrap.height(),
     currentHeight = wrap.scrollTop(),
     wrapScrollHeight = wrap.prop("scrollHeight"),
