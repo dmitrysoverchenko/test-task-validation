@@ -7,3 +7,4 @@ fix month of user's birth (from number of month to name of month)
 add click func on scroll down button
 
 total time is 2 hours
+https://dmitrysoverchenko.github.io/test-task-validation/
