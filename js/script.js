@@ -302,3 +302,5 @@ function scrollDown() {
     wrap.scrollTop(desiredHeight);
   }
 }
+
+$("#scroll_id").click(scrollDown);
