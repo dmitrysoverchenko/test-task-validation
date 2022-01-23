@@ -2603,13 +2603,15 @@ html.add-scroll {
   margin-top: 25px;
 }
 .reviews-title {
+  font-family: Helvetica, sans-serif;
   text-align: center;
   font-weight: 700;
   font-size: 38px;
-  text-decoration: underline;
+  /* text-decoration: underline; */
   color: #222;
 }
 .comment-item {
+  font-family: Helvetica, sans-serif;
   display: none;
   margin: auto;
   width: 90%;
