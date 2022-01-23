@@ -96,13 +96,14 @@ const set = setTimeout(() => {
             .offsetTop;
           scriplongBody(nev_div);
         }
-      } else if (
-        lengt_num_mas === 21
-      ) {
+      } else if (lengt_num_mas === 21) {
         scrollDown();
         clearInterval(mas_inf);
-        $('#mass' + lengt_num_mas + '').parent().parent().css('display', 'none');
-        $('.iframe-form').css('display', 'block');
+        $("#mass" + lengt_num_mas + "")
+          .parent()
+          .parent()
+          .css("display", "none");
+        $(".iframe-form").css("display", "block");
         scrollDown();
         clearInterval(set);
         showForm();
@@ -120,7 +121,6 @@ function app() {
   scrollDown();
 }
 
-
 function myMassange(userGend) {
   let mass =
     '<div class="chat-content-item user "><div class="chat-content-desc"><div class="chat-content-desc-item user"><p>' +
@@ -129,7 +129,6 @@ function myMassange(userGend) {
   $(".chat-content-list").append(mass);
   scrollDown();
 }
-
 
 function appGender() {
   scrollDown();
@@ -161,7 +160,6 @@ function genderNext() {
   });
 }
 
-
 function appAge() {
   scrollDown();
   $(".chat-content-list").append(
@@ -183,7 +181,6 @@ function appAge() {
   }, 500);
 }
 
-
 function YsNo() {
   scrollDown();
   $(".chat-content-list").append(
@@ -203,7 +200,6 @@ function YsNo() {
   });
 }
 
-
 function Photofoot() {
   $(".chat-content-list").append(
     '<div class="chat-content-desc-item manager"><img class="symptomsImg" style="max-width: 625px;" src="images/symptomsFull.png" id="foot1"><img class="symptoms-mobile" src="images/symptoms.png"></div>'
@@ -213,7 +209,6 @@ function Photofoot() {
     process = true;
   }, 8500);
 }
-
 
 function addArray() {
   end_massange1 = {
@@ -275,7 +270,6 @@ function addArray() {
     end_massange14
   );
 }
-
 
 let top_scroling = 0;
 
