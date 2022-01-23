@@ -168,10 +168,10 @@ function appAge() {
 
   let data = setInterval(() => {
     let empty_field = $(".select-day").val();
-    let full_month = $(".select-month").val();
+    let full_month = $(".select-month").find(":selected").text();
     let year = $(".select-year").val();
     if (empty_field != "" && full_month != "" && year != "") {
-      let selectS = "" + empty_field + "." + full_month + "." + year + "";
+      let selectS = "" + empty_field + " " + full_month + " " + year + "";
 
       myMassange(selectS);
       $(this).css("display", "none");
